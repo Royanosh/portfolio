@@ -13,8 +13,9 @@ const About = () => {
           <div className="about_leftBox">
             <h1>Hi, I'm Umesh Kumawat.</h1>
             <p>
-              I am Full Stack Web Developer and i have knowledge in HTML, CSS,
-              JS, React MERN Stack and I make user-friendly websites.
+              An enthusiastic Full Stack Web Developer with a strong set of
+              technical as well as non-technical skills and a dedication towards
+              creating useful and interactive web applications.
             </p>
             <a href="https://drive.google.com/uc?export=download&id=1GLrKvI9q7kZQzyVNpgf5p_zafCdYkDl4">
               <button>
@@ -50,7 +51,8 @@ const About = () => {
               I am <span>Full Stack Web Developer</span>
             </h2>
             <p>
-              Passionate and creative developer with skills in the MERN Stack.
+              Passionate and creative developer with the ability to learn and
+              collaborate in rapidly changing environments and compositions.
               Skilled in problem solving and execution of software tasks from
               start to finish. I am self-motivated and hardworking programmer
               seeking for an opportunity to work in a challenging environment to
