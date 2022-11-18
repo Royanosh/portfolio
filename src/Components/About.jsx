@@ -14,7 +14,7 @@ const About = () => {
             <h1>Hi, I'm Umesh Kumawat.</h1>
             <p>
               I am Full Stack Web Developer and i have knowledge in HTML, CSS,
-              JS, REACT and i make user-friendly websites.
+              JS, React MERN Stack and I make user-friendly websites.
             </p>
             <a href="https://drive.google.com/uc?export=download&id=1GLrKvI9q7kZQzyVNpgf5p_zafCdYkDl4">
               <button>
@@ -50,12 +50,11 @@ const About = () => {
               I am <span>Full Stack Web Developer</span>
             </h2>
             <p>
-              My name is Umesh Kumawat, I am from Jaipur, Rajasthan. Passionate
-              Full Stack Web Developer with skills in the MERN stack, I have
-              learned Full Stack Web Development in Masai school. Skilled in
-              problem- solving and execution of software tasks from start to
-              finish. I look forward to joining a company where I can contribute
-              to individual and company growth..
+              Passionate and creative developer with skills in the MERN Stack.
+              Skilled in problem solving and execution of software tasks from
+              start to finish. I am self-motivated and hardworking programmer
+              seeking for an opportunity to work in a challenging environment to
+              prove my coding skills and utilize my knowledge.
             </p>
             <div>
               <img src={signature} alt="Umesh_Signature" width="200px" />

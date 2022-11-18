@@ -17,6 +17,9 @@ import nodejs from "../Resources/Images/LanguageImages/nodejs.png";
 import react from "../Resources/Images/LanguageImages/react.png";
 import reactredux from "../Resources/Images/LanguageImages/redux.png";
 import mern from "../Resources/Images/LanguageImages/mern.png";
+import postman from "../Resources/Images/LanguageImages/postman.png";
+import netlify from "../Resources/Images/LanguageImages/netlify.png";
+
 const Skills = () => {
   const skills = [
     {
@@ -48,6 +51,30 @@ const Skills = () => {
       title: "Heroku",
     },
     {
+      img: react,
+      title: "ReactJS",
+    },
+    {
+      img: chakraui,
+      title: "Chakra UI",
+    },
+    {
+      img: materialui,
+      title: "Material UI",
+    },
+    {
+      img: reactredux,
+      title: "Redux",
+    },
+    {
+      img: postman,
+      title: "Postman",
+    },
+    {
+      img: netlify,
+      title: "Netlify",
+    },
+    {
       img: java,
       title: "Java",
     },
@@ -67,22 +94,7 @@ const Skills = () => {
       img: linux,
       title: "Linux",
     },
-    {
-      img: react,
-      title: "ReactJS",
-    },
-    {
-      img: chakraui,
-      title: "Chakra UI",
-    },
-    {
-      img: materialui,
-      title: "Material UI",
-    },
-    {
-      img: reactredux,
-      title: "Redux",
-    },
+
     {
       img: mern,
       title: "MERN",

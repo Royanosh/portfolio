@@ -66,13 +66,13 @@ const Projects = () => {
                 ))}
               </div>
               <div className="linkSection">
-                <a href={ele.githubLink}>
+                <a href={ele.githubLink} target="_blank">
                   <button>
                     <GitHubIcon />
                     Github
                   </button>
                 </a>
-                <a href={ele.deployedLink}>
+                <a href={ele.deployedLink} target="_blank">
                   <button>
                     <StreamIcon />
                     Live

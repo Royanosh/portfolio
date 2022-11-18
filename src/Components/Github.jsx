@@ -10,7 +10,6 @@ const Github = () => {
       <Container>
         <GithubCalendar
           username="Royanosh"
-          year={new Date().getFullYear()}
           blockSize={15}
           blockMargin={5}
           fontSize={16}
