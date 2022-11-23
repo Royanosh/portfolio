@@ -9,23 +9,35 @@ import StreamIcon from "@mui/icons-material/Stream";
 const Projects = () => {
   const projects = [
     {
-      id: 4,
-      title: "MILAAP Clone",
-      img: MILAAP,
-      desc: "Raise funds online for medical emergencies and social causes",
+      id: 2,
+      title: "ZAPPOS Clone",
+      img: ZAPPOS,
+      desc: "Zappos.com is an American online shoe and clothing retailer based in Las Vegas, Nevada, United States.",
       worked:
-        "A collaborative project, built in 7 days by a team of 5 developers.",
-      githubLink: "https://github.com/gauravv8090/Milaap_clone",
-      deployedLink: "https://milaapclone.netlify.app/",
-      tags: ["HTML", "CSS", "Javascript"],
+        "A collaborative project, built in 7 days by a team of 3 developers.",
+      features: [
+        "Whole website responsive.",
+        "Features like register, login, searching, sorting all filters.",
+        "Whole flow of e-commerce working from searching to checkout.",
+      ],
+      keyPoint1: "E",
+      keyPoint2: "",
+      githubLink: "https://github.com/Royanosh/zappos",
+      deployedLink: "https://zappos-official.netlify.app/",
+      tags: ["HTML", "CSS", "Javascript", "React", "Chakra UI"],
     },
     {
       id: 1,
       title: "FIRSTPOST Clone",
       img: firstpost,
-      desc: "Firstpost is an Indian conservative online news and media website. The site is a part of the Network 18 media conglomerate owned by Reliance Industries, which also runs CNN-News18 and CNBC-TV18. The Network 18 group was originally owned by Raghav Bahl.",
+      desc: "Firstpost is an Indian conservative online news and media website.",
       worked:
         "A collaborative project, built in 5 days by a team of 4 developers.",
+      features: [
+        "Whole website responsive.",
+        "Login Signup functionality working properly.",
+        "User can able to read news in different regions.",
+      ],
       keyPoint2: "",
       keyPoint1: "",
       githubLink: "https://github.com/Royanosh/firstpost",
@@ -33,17 +45,20 @@ const Projects = () => {
       tags: ["HTML", "CSS", "Javascript", "JSON-SERVER"],
     },
     {
-      id: 2,
-      title: "ZAPPOS Clone",
-      img: ZAPPOS,
-      desc: "Zappos.com is an American online shoe and clothing retailer based in Las Vegas, Nevada, United States. The company was founded in 1999 by Nick Swinmurn and launched under the domain name Shoesite.com. In July 2009, Amazon acquired Zappos in an all-stock deal worth around $1.2 billion at the time",
+      id: 4,
+      title: "MILAAP Clone",
+      img: MILAAP,
+      desc: "Raise funds online for medical emergencies and social causes",
+      features: [
+        "Login Signup functionality.",
+        "User can raise funds by using website fundraiser feature.",
+        "User can donate.",
+      ],
       worked:
-        "A collaborative project, built in 7 days by a team of 3 developers.",
-      keyPoint1: "E",
-      keyPoint2: "",
-      githubLink: "https://github.com/Royanosh/zappos",
-      deployedLink: "https://zappos-official.netlify.app/",
-      tags: ["HTML", "CSS", "Javascript", "React", "Chakra UI"],
+        "A collaborative project, built in 7 days by a team of 5 developers.",
+      githubLink: "https://github.com/gauravv8090/Milaap_clone",
+      deployedLink: "https://milaapclone.netlify.app/",
+      tags: ["HTML", "CSS", "Javascript", "Git"],
     },
   ];
 
@@ -57,14 +72,25 @@ const Projects = () => {
               <img src={ele.img} alt={ele.title} width="100%" />
             </div>
             <div className="ContentBox">
-              <h1>{ele.title}</h1>
+              <h2>{ele.title}</h2>
               <p>{ele.desc}</p>
+
+              <div className="featureBox">
+                <h4>Features</h4>
+                <ul>
+                  {ele.features.map((feature, index) => {
+                    return <li key={index}>{feature}</li>;
+                  })}
+                </ul>
+              </div>
               <p style={{ fontWeight: "bold" }}>{ele.worked}</p>
+
               <div className="tagsBox">
                 {ele.tags.map((tag, index) => (
                   <span key={index}>{tag}</span>
                 ))}
               </div>
+              <p style={{ fontWeight: "bold" }}>Code | See this Live</p>
               <div className="linkSection">
                 <a href={ele.githubLink} target="_blank">
                   <button>
@@ -142,16 +168,32 @@ const Container = styled.div`
     padding: 0px 20px 20px 20px;
   }
 
-  .ContentBox > h1 {
-    color: #343a40;
+  .ContentBox > h2 {
+    color: #01a479;
   }
 
   .ContentBox > p {
-    width: 90%;
+    width: 100%;
     font-size: large;
-    margin-top: 0px;
+    margin-top: -10px;
   }
-
+  .featureBox {
+    margin-top: -10px;
+  }
+  .featureBox > h4 {
+    color: #01a479;
+  }
+  .featureBox > ul {
+    margin-top: -15px;
+    text-align: left;
+    font-size: 1em;
+  }
+  .featureBox + p {
+    color: #01a479;
+  }
+  .tagsBox + p {
+    color: #01a479;
+  }
   .tagsBox {
     width: 80%;
     display: flex;
@@ -161,7 +203,9 @@ const Container = styled.div`
     gap: 5px;
     margin-bottom: 20px;
   }
-
+  .tagsBox > h4 {
+    color: #01a479;
+  }
   .tagsBox > span {
     color: white;
     background-color: #01a479;

@@ -20,7 +20,7 @@ const ContactUs = () => {
     e.preventDefault();
     if (data.name && data.email && data.subject && data.message) {
       emailjs
-        .send("service_po6idda", "template_g5erg0q", data, "Ob6YgTaYqeObolMjc")
+        .send("service_ghjulgj", "template_ol3g9zi", data, "XtibhTvyaBmdId37N")
         .then((response) => {
           setSubmit(true);
         })
@@ -55,7 +55,7 @@ const ContactUs = () => {
     return () => {
       clearInterval(id);
     };
-  }, [submit, data]);
+  }, []);
 
   return (
     <Container id="contact">
