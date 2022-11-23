@@ -36,7 +36,7 @@ const Projects = () => {
       features: [
         "Whole website responsive.",
         "Login Signup functionality working properly.",
-        "User can able to read news in different regions.",
+        "User can read news of different regions.",
       ],
       keyPoint2: "",
       keyPoint1: "",
