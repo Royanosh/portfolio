@@ -48,15 +48,23 @@ const About = () => {
           </div>
           <div className="right">
             <h2>
-              I am <span>Full Stack Web Developer</span>
+              Hi, I am <span>Umesh Kumawat</span>
             </h2>
             <p>
-              Passionate and creative developer with the ability to learn and
-              collaborate in rapidly changing environments and compositions.
-              Skilled in problem solving and execution of software tasks from
-              start to finish. I am self-motivated and hardworking programmer
-              seeking for an opportunity to work in a challenging environment to
-              prove my coding skills and utilize my knowledge.
+              I am from <span>Jaipur, Rajasthan (India)</span>. I have completed
+              my bachelor's in{" "}
+              <span>Machine Learning & Artificial Intelligence</span> from
+              <span>
+                Bhartiya Skill Development University, Jaipur, Rajasthan
+              </span>
+              . Then I joined full stack web development course by{" "}
+              <span>Masai School</span> a military type coding school. Now, I'm
+              a creative developer with the ability to learn and collaborate in
+              rapidly changing environments and compositions. Skilled in problem
+              solving and execution of software tasks from start to finish. I am
+              self-motivated and hardworking programmer seeking for an
+              opportunity to work in a challenging environment to prove my
+              coding skills and utilize my knowledge.
             </p>
             <div>
               <img src={signature} alt="Umesh_Signature" width="200px" />
@@ -364,6 +372,9 @@ const AboutMeWrapper = styled.div`
     text-align: left;
   }
   .right > h2 > span {
+    color: #01a479;
+  }
+  .right > p > span {
     color: #01a479;
   }
 
