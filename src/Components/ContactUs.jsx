@@ -55,7 +55,7 @@ const ContactUs = () => {
     return () => {
       clearInterval(id);
     };
-  }, []);
+  }, [data, submit]); // Added data and submit to the dependency array
 
   return (
     <Container id="contact">

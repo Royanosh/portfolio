@@ -1,9 +1,7 @@
-import DownloadIcon from "@mui/icons-material/Download";
 import React from "react";
 import styled from "styled-components";
 import myImage from "../Resources/Images/profilePic3.jpg";
 import backgroundImage from "../Resources/Images/backgroundHome.jpg";
-import signature from "../Resources/Images/signature.png";
 
 const About = () => {
   return (

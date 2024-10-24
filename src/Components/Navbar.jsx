@@ -1,5 +1,4 @@
 import backgroundImage from "../Resources/Images/backgroundHome.jpg";
-import DownloadIcon from "@mui/icons-material/Download";
 import myImage from "../Resources/Images/profilePic3.jpg";
 import styled from "styled-components";
 import React, { useEffect, useState } from "react";
