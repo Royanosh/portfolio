@@ -1,5 +1,4 @@
 import backgroundImage from "../Resources/Images/backgroundHome.jpg";
-import myImage from "../Resources/Images/profilePic3.jpg";
 import styled from "styled-components";
 import React, { useEffect, useState } from "react";
 import { Link, animateScroll } from "react-scroll";
@@ -70,17 +69,6 @@ const Navbar = () => {
               Skills
             </Link>
           </li>
-          {/* <li>
-            <Link
-              activeClass="active"
-              to="projects"
-              onClick={() => setHead(true)}
-              spy={true}
-              smooth={true}
-            >
-              Projects
-            </Link>
-          </li> */}
           <li>
             <Link
               activeClass="active"
