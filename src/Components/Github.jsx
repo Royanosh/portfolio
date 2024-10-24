@@ -1,19 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
-import GithubCalendar from "react-github-calendar";
+import GitHubCalendar from "github-calendar";
+
 const Github = () => {
+  useEffect(() => {
+    GitHubCalendar(".calendar", "Royanosh", { responsive: true });
+  }, []);
+
   return (
     <MainContainer style={{ marginTop: "-20px" }}>
       <h1 style={{ color: "#01a479", textTransform: "uppercase" }}>
         Days I Worked
       </h1>
       <Container>
-        <GithubCalendar
-          username="Royanosh"
-          blockSize={15}
-          blockMargin={5}
-          fontSize={16}
-        />
+        <div className="calendar">Loading the data just for you.</div>
       </Container>
       <h1 style={{ color: "#01a479", textTransform: "uppercase" }}>
         My Statistics

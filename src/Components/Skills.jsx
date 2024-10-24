@@ -43,14 +43,6 @@ const Skills = () => {
       title: "Git/Github",
     },
     {
-      img: json,
-      title: "JSON",
-    },
-    {
-      img: heroku,
-      title: "Heroku",
-    },
-    {
       img: react,
       title: "ReactJS",
     },
@@ -67,34 +59,13 @@ const Skills = () => {
       title: "Redux",
     },
     {
-      img: postman,
-      title: "Postman",
-    },
-    {
-      img: netlify,
-      title: "Netlify",
-    },
-    {
-      img: java,
-      title: "Java",
-    },
-    {
       img: mongodb,
       title: "MongoDB",
-    },
-    {
-      img: firebase,
-      title: "Firebase",
     },
     {
       img: nodejs,
       title: "NodeJS",
     },
-    {
-      img: linux,
-      title: "Linux",
-    },
-
     {
       img: mern,
       title: "MERN",

@@ -12,7 +12,7 @@ const Homepage = () => {
             <Navbar />
             <About />
             <Skills/>
-            <Projects/>
+            {/* <Projects/> */}
             <Github/>
             <ContactUs/>
         </>

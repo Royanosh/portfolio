@@ -1,7 +1,7 @@
 import DownloadIcon from "@mui/icons-material/Download";
 import React from "react";
 import styled from "styled-components";
-import myImage from "../Resources/Images/profilePic.jpg";
+import myImage from "../Resources/Images/profilePic3.jpg";
 import backgroundImage from "../Resources/Images/backgroundHome.jpg";
 import signature from "../Resources/Images/signature.png";
 
@@ -13,16 +13,11 @@ const About = () => {
           <div className="about_leftBox">
             <h1>Hi, I'm Umesh Kumawat.</h1>
             <p>
-              An enthusiastic Full Stack Web Developer with a strong set of
-              technical as well as non-technical skills and a dedication towards
-              creating useful and interactive web applications.
+              An enthusiastic Full Stack Web Developer with two years of job
+              experience in a startup company, specializing in the MERN stack.
+              I possess a strong set of technical as well as non-technical skills
+              and a dedication towards creating useful and interactive web applications.
             </p>
-            <a href="https://drive.google.com/uc?export=download&id=1GLrKvI9q7kZQzyVNpgf5p_zafCdYkDl4">
-              <button>
-                Download CV
-                <DownloadIcon />
-              </button>
-            </a>
           </div>
           <div className="about_rightBox">
             <div>
@@ -40,10 +35,10 @@ const About = () => {
               Email: <span>royanosh777@gmail.com</span>
             </p>
             <p>
-              Language: <span>English</span>
+              Phone: <span>+91 6376390755</span>
             </p>
             <p>
-              Nationality: <span>Indian</span>
+              Language: <span>English, Hindi</span>
             </p>
           </div>
           <div className="right">
@@ -53,22 +48,19 @@ const About = () => {
             <p>
               I am from <span>Jaipur, Rajasthan (India)</span>. I have completed
               my bachelor's in{" "}
-              <span>Machine Learning & Artificial Intelligence</span> from
+              <span>Machine Learning & Artificial Intelligence</span> from{" "}
               <span>
                 Bhartiya Skill Development University, Jaipur, Rajasthan
-              </span>
-              . Then I joined full stack web development course by{" "}
-              <span>Masai School</span> a military type coding school. Now, I'm
+              </span>{" "}
+              . Then I joined a full stack web development course at{" "}
+              <span>Masai School</span>, a military-style coding school. Now, I'm
               a creative developer with the ability to learn and collaborate in
               rapidly changing environments and compositions. Skilled in problem
               solving and execution of software tasks from start to finish. I am
-              self-motivated and hardworking programmer seeking for an
-              opportunity to work in a challenging environment to prove my
-              coding skills and utilize my knowledge.
+              currently working as a Full Stack Web Developer specializing in the
+              MERN stack, with more than 2 years of experience, utilizing my skills
+              and knowledge in a challenging environment.
             </p>
-            <div>
-              <img src={signature} alt="Umesh_Signature" width="200px" />
-            </div>
           </div>
         </div>
       </AboutMeWrapper>
@@ -145,6 +137,12 @@ const Container = styled.div`
     border-radius: 100%;
     background-color: white;
     overflow: hidden;
+    position: relative;
+  }
+  .about_rightBox > div > img {
+    position: absolute;
+    top: -100px;
+    left: 0;
   }
 
   @media only screen and (min-width: 481px) and (max-width: 768px) {

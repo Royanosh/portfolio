@@ -1,5 +1,6 @@
 import backgroundImage from "../Resources/Images/backgroundHome.jpg";
 import DownloadIcon from "@mui/icons-material/Download";
+import myImage from "../Resources/Images/profilePic3.jpg";
 import styled from "styled-components";
 import React, { useEffect, useState } from "react";
 import { Link, animateScroll } from "react-scroll";
@@ -30,7 +31,7 @@ const Navbar = () => {
         style={{ backgroundColor: `${colorChange ? "white" : "transparent"}` }}
       >
         <a href="/" className="logo">
-          Umesh
+          Full Stack Developer
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
@@ -70,7 +71,7 @@ const Navbar = () => {
               Skills
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               activeClass="active"
               to="projects"
@@ -80,7 +81,7 @@ const Navbar = () => {
             >
               Projects
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               activeClass="active"
@@ -91,17 +92,6 @@ const Navbar = () => {
             >
               Contact
             </Link>
-          </li>
-          <li>
-            <div className="resumeBox">
-              <a
-                className="resume"
-                href="https://drive.google.com/uc?export=download&id=1GLrKvI9q7kZQzyVNpgf5p_zafCdYkDl4"
-              >
-                Resume
-                <DownloadIcon />
-              </a>
-            </div>
           </li>
         </ul>
       </header>
