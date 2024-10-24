@@ -5,11 +5,6 @@ import css from "../Resources/Images/LanguageImages/css3.png";
 import bootstrap from "../Resources/Images/LanguageImages/bootstrap.png";
 import chakraui from "../Resources/Images/LanguageImages/chakraui.png";
 import materialui from "../Resources/Images/LanguageImages/materialui.png";
-import json from "../Resources/Images/LanguageImages/json.png";
-import java from "../Resources/Images/LanguageImages/java.png";
-import linux from "../Resources/Images/LanguageImages/linux.png";
-import firebase from "../Resources/Images/LanguageImages/firebase.png";
-import heroku from "../Resources/Images/LanguageImages/heroku.png";
 import js from "../Resources/Images/LanguageImages/js.png";
 import git from "../Resources/Images/LanguageImages/git.png";
 import mongodb from "../Resources/Images/LanguageImages/mongodb.png";
@@ -17,8 +12,6 @@ import nodejs from "../Resources/Images/LanguageImages/nodejs.png";
 import react from "../Resources/Images/LanguageImages/react.png";
 import reactredux from "../Resources/Images/LanguageImages/redux.png";
 import mern from "../Resources/Images/LanguageImages/mern.png";
-import postman from "../Resources/Images/LanguageImages/postman.png";
-import netlify from "../Resources/Images/LanguageImages/netlify.png";
 
 const Skills = () => {
   const skills = [
